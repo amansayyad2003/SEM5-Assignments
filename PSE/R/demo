@@ -1,0 +1,12 @@
+data()
+View(CO2)       // to get purticular dataset
+CO2$Treatment    // to get all elements of Treatment column
+
+# to find frequency using command table     // comment
+table(CO2$Treatment)
+dim(CO2)   // get dimension of table
+count<-table(CO2$Treatment)    // to defining Variable count to get frequency of \
+                                    CO2$Treatme
+barplot(count)
+his(count)
+pie(count)
