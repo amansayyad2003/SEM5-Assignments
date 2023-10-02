@@ -8,5 +8,5 @@ dim(CO2)   // get dimension of table
 count<-table(CO2$Treatment)    // to defining Variable count to get frequency of \
                                     CO2$Treatme
 barplot(count)
-his(count)
+hist(count)
 pie(count)
