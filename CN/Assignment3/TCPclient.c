@@ -47,14 +47,14 @@ int main(int argc, char *argv[]){
 	while(1){
 		printf("Client: ");
 		fgets(message, sizeof(message), stdin);
-		if(send(s, message, sizeof(message), 0) == -1, 0){
+		if(send(s, message, sizeof(message), 0) == -1){
 			perror("Error: In sending data to server");
 			break;
 		}
 		if(strcmp("close\n", message) == 0){
 			break;
 		}
-		if(recv(s, message, sizeof(message), 0) == -1, 0){
+		if(recv(s, message, sizeof(message), 0) == -1){
 			perror("Error: Receiving data to client");
 			break;
 		}

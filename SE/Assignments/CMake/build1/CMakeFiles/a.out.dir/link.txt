@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/a.out.dir/main.cpp.o -o a.out  -Wl,-rpath,/home/aman2003/SEM5/SE/Assignments/CMake/build/mylib mylib/libcalci.so 

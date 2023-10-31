@@ -1,0 +1,6 @@
+/home/aman2003/SEM5/SE/Assignments/CMake/build/CMakeFiles/a.out.dir
+/home/aman2003/SEM5/SE/Assignments/CMake/build/CMakeFiles/edit_cache.dir
+/home/aman2003/SEM5/SE/Assignments/CMake/build/CMakeFiles/rebuild_cache.dir
+/home/aman2003/SEM5/SE/Assignments/CMake/build/mylib/CMakeFiles/calci.dir
+/home/aman2003/SEM5/SE/Assignments/CMake/build/mylib/CMakeFiles/edit_cache.dir
+/home/aman2003/SEM5/SE/Assignments/CMake/build/mylib/CMakeFiles/rebuild_cache.dir

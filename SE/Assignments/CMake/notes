@@ -1,0 +1,55 @@
+build systems
+- there are n number of build system to generate the binary or executable file from existing source file but if we are switching from one os to other os we have to learn other build system and rewrite the part of statements related to build system so to overcome this we have cmake
+- ex we have UNIX make file build system
+
+- automatic generate make file
+
+- cmake is not build system but it is build system generater 
+
+- executable file
+- supply library -> shared library and header file
+- consume library
+
+- supply or consume library output can have output by different build system and it is possible consumer or supplier may have different build system
+
+- how to generate executable file
+- shared library
+- static library
+- how to supply library - linking part, path , header file
+
+- CMAKE -> beauty of cmake is we can organise our project as we want later we can write  makefile
+
+-> There are different build system to create the executable files like
+- UNIX make build system
+- ninja
+
+- CMake -> genetrates build system for you
+
+to generate different build system 
+- Default UNIX makefile
+0. mkdir build
+	cd build 
+	cmake ..  // path of cmake file
+
+1. cmake -Bbuild
+	cd build
+	make
+	a.out
+
+2. cmake -Bbuild
+	cmake --build build
+	a.out
+
+- Ninja build system
+0. cmake -Bbuild -GNinja
+
+- what is static and shared library
+By default it creates static library
+1. add_library(calci SHARED mylib/calci.cpp)
+	add_executable(a.out main.cpp)
+	target_link_libraries(a.out calci)
+
+doubts
+- what is build system
+- what is static and shared library
+
